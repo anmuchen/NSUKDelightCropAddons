@@ -1,0 +1,160 @@
+{
+  "mod": "gan_delight_reborn",
+  "prefix": "gd",
+  "label": "source.nsukdelightcropaddons.gan_delight_reborn",
+  "discover": true,
+  "crops": [
+    {
+      "id": "dates",
+      "seed": "gan_delight_reborn:dates_crops",
+      "plant": "gan_delight_reborn:dates_crops",
+      "growth_blocks": ["gan_delight_reborn:dc_2"],
+      "harvest_blocks": ["gan_delight_reborn:dc_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "artemisia",
+      "seed": "gan_delight_reborn:artemisia_selengensis_crops",
+      "plant": "gan_delight_reborn:artemisia_selengensis_crops",
+      "growth_blocks": ["gan_delight_reborn:artemisia_selengensis_2"],
+      "harvest_blocks": ["gan_delight_reborn:artemisia_selengensis_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "soybean",
+      "seed": "gan_delight_reborn:soya_beancrops",
+      "plant": "gan_delight_reborn:soya_beancrops",
+      "growth_blocks": ["gan_delight_reborn:dd_2"],
+      "harvest_blocks": ["gan_delight_reborn:dd_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "mung_bean",
+      "seed": "gan_delight_reborn:mung_bean_crops",
+      "plant": "gan_delight_reborn:mung_bean_crops",
+      "growth_blocks": ["gan_delight_reborn:ldj"],
+      "harvest_blocks": ["gan_delight_reborn:ldy"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "vegetables",
+      "seed": "gan_delight_reborn:vegetables",
+      "plant": "gan_delight_reborn:vegetables",
+      "growth_blocks": ["gan_delight_reborn:ve_2"],
+      "harvest_blocks": ["gan_delight_reborn:ve_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "celery",
+      "seed": "gan_delight_reborn:celery_crops",
+      "plant": "gan_delight_reborn:celery_crops",
+      "growth_blocks": ["gan_delight_reborn:ce_c_2"],
+      "harvest_blocks": ["gan_delight_reborn:ce_c_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "chili",
+      "seed": "gan_delight_reborn:chillipeppercrops",
+      "plant": "gan_delight_reborn:chillipeppercrops",
+      "growth_blocks": ["gan_delight_reborn:cpc_2"],
+      "harvest_blocks": ["gan_delight_reborn:cpc_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "green_chili",
+      "seed": "gan_delight_reborn:greenchillipeppercrops",
+      "plant": "gan_delight_reborn:greenchillipeppercrops",
+      "growth_blocks": ["gan_delight_reborn:gpc_2"],
+      "harvest_blocks": ["gan_delight_reborn:gpc_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "chives",
+      "seed": "gan_delight_reborn:chives_crops",
+      "plant": "gan_delight_reborn:chives_crops",
+      "growth_blocks": ["gan_delight_reborn:cc_2"],
+      "harvest_blocks": ["gan_delight_reborn:cc_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "ginger",
+      "seed": "gan_delight_reborn:gingercrop",
+      "plant": "gan_delight_reborn:gingercrop",
+      "growth_blocks": ["gan_delight_reborn:gi_c_2"],
+      "harvest_blocks": ["gan_delight_reborn:gi_c_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "garlic",
+      "seed": "gan_delight_reborn:garliccrop",
+      "plant": "gan_delight_reborn:garliccrop",
+      "growth_blocks": ["gan_delight_reborn:gc_2"],
+      "harvest_blocks": ["gan_delight_reborn:gc_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "water_chestnut",
+      "seed": "gan_delight_reborn:waterchestnu_crops",
+      "plant": "gan_delight_reborn:waterchestnu_crops",
+      "growth_blocks": ["gan_delight_reborn:wcc_2"],
+      "harvest_blocks": ["gan_delight_reborn:wcc_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "taro",
+      "seed": "gan_delight_reborn:taro_crops",
+      "plant": "gan_delight_reborn:taro_crops",
+      "growth_blocks": ["gan_delight_reborn:taro_crops_2"],
+      "harvest_blocks": ["gan_delight_reborn:taro_crops_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "wintermelon",
+      "seed": "gan_delight_reborn:wintermelon_crops_1",
+      "plant": "gan_delight_reborn:wintermelon_crops_1",
+      "growth_blocks": ["gan_delight_reborn:wintermelon_crops_2"],
+      "harvest_blocks": ["gan_delight_reborn:wintermelon_crops_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "cucumber",
+      "seed": "gan_delight_reborn:cucumber_crop",
+      "plant": "gan_delight_reborn:cucumber_crop",
+      "growth_blocks": ["gan_delight_reborn:cu_c_2"],
+      "harvest_blocks": ["gan_delight_reborn:cu_c_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "wolfberry",
+      "seed": "gan_delight_reborn:chinesewolfberrycrops",
+      "plant": "gan_delight_reborn:chinesewolfberrycrops",
+      "growth_blocks": ["gan_delight_reborn:cwc_2"],
+      "harvest_blocks": ["gan_delight_reborn:cwc_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "scallion",
+      "seed": "gan_delight_reborn:scallion_crops",
+      "plant": "gan_delight_reborn:scallion_crops",
+      "growth_blocks": ["gan_delight_reborn:sc_2"],
+      "harvest_blocks": ["gan_delight_reborn:sc_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "mustard",
+      "seed": "gan_delight_reborn:mustard_crops",
+      "plant": "gan_delight_reborn:mustard_crops",
+      "growth_blocks": ["gan_delight_reborn:mustard_crops_2"],
+      "harvest_blocks": ["gan_delight_reborn:mustard_crops_3"],
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "sweet_potato",
+      "seed": "gan_delight_reborn:sweet_potato_crops_1",
+      "plant": "gan_delight_reborn:sweet_potato_crops_1",
+      "growth_blocks": ["gan_delight_reborn:sweet_potato_crops_2"],
+      "harvest_blocks": ["gan_delight_reborn:sweet_potato_crops_3"],
+      "allow_non_crop_block": true
+    }
+  ]
+}

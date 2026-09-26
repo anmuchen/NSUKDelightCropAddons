@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.xiaolianganmuchen.nsukdelightcropaddons.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "FarmlandBoxScreenOpenerMixin",
+    "FarmlandCropScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

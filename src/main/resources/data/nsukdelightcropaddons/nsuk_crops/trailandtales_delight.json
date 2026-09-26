@@ -1,0 +1,18 @@
+{
+  "mod": "trailandtales_delight",
+  "prefix": "ttd",
+  "label": "source.nsukdelightcropaddons.trailandtales_delight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "lantern_fruit",
+      "seed": "trailandtales_delight:lantern_fruit_seeds",
+      "plant": "trailandtales_delight:budding_lantern_fruit",
+      "harvest_blocks": [
+        "trailandtales_delight:lantern_fruits"
+      ],
+      "harvest_max_age": false,
+      "allow_non_crop_block": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "mod": "immortalers_delight",
+  "prefix": "imd",
+  "label": "source.nsukdelightcropaddons.immortalers_delight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "alfalfa",
+      "seed": "immortalers_delight:alfalfa_seeds",
+      "plant": "immortalers_delight:alfalfa"
+    },
+    {
+      "id": "evolutcorn",
+      "seed": "immortalers_delight:evolutcorn_grains",
+      "plant": "immortalers_delight:evolutcorn"
+    },
+    {
+      "id": "kwat_wheat",
+      "seed": "immortalers_delight:kwat_wheat_seeds",
+      "plant": "immortalers_delight:kwat_wheat"
+    },
+    {
+      "id": "warped_laurel",
+      "seed": "immortalers_delight:warped_laurel_seeds",
+      "plant": "immortalers_delight:warped_laurel_crop"
+    },
+    {
+      "id": "sextlotus",
+      "seed": "immortalers_delight:sextlotus_seeds",
+      "plant": "immortalers_delight:sextlotus"
+    }
+  ]
+}

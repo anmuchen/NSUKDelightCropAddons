@@ -1,0 +1,17 @@
+{
+  "mod": "pineapple_delight",
+  "prefix": "pd",
+  "label": "source.nsukdelightcropaddons.pineapple_delight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "pineapple",
+      "seed": "pineapple_delight:pineapple_crop",
+      "plant": "pineapple_delight:pineapple_crop",
+      "harvest_blocks": [
+        "pineapple_delight:huge_pineapple"
+      ],
+      "allow_non_crop_block": true
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "mod": "rusticdelight",
+  "prefix": "rd",
+  "label": "source.nsukdelightcropaddons.rusticdelight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "cotton",
+      "seed": "rusticdelight:cotton_seeds",
+      "plant": "rusticdelight:cotton"
+    },
+    {
+      "id": "coffee",
+      "seed": "rusticdelight:coffee_beans",
+      "plant": "rusticdelight:coffee"
+    },
+    {
+      "id": "bell_pepper",
+      "seed": "rusticdelight:bell_pepper_seeds",
+      "plant": "rusticdelight:bell_peppers"
+    },
+    {
+      "id": "pale_bell_pepper",
+      "seed": "rusticdelight:pale_bell_pepper_seeds",
+      "plant": "rusticdelight:pale_bell_peppers"
+    },
+    {
+      "id": "dark_bell_pepper",
+      "seed": "rusticdelight:dark_bell_pepper_seeds",
+      "plant": "rusticdelight:dark_bell_peppers"
+    }
+  ]
+}

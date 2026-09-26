@@ -1,0 +1,29 @@
+{
+  "mod": "farmersdelight",
+  "prefix": "fd",
+  "label": "source.nsukdelightcropaddons.farmersdelight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "cabbage",
+      "seed": "farmersdelight:cabbage_seeds",
+      "plant": "farmersdelight:cabbages"
+    },
+    {
+      "id": "tomato",
+      "seed": "farmersdelight:tomato_seeds",
+      "plant": "farmersdelight:budding_tomatoes",
+      "harvest_blocks": [
+        "farmersdelight:tomatoes"
+      ],
+      "harvest_height": 1,
+      "harvest_max_age": false,
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "onion",
+      "seed": "farmersdelight:onion",
+      "plant": "farmersdelight:onions"
+    }
+  ]
+}

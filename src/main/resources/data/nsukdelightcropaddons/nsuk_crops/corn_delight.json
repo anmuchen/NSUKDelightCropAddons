@@ -1,0 +1,14 @@
+{
+  "mod": "corn_delight",
+  "prefix": "cnd",
+  "label": "source.nsukdelightcropaddons.corn_delight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "corn",
+      "seed": "corn_delight:corn_seeds",
+      "plant": "corn_delight:corn_crop",
+      "harvest_height": 2
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "mod": "youkaisfeasts",
+  "prefix": "yf",
+  "label": "source.nsukdelightcropaddons.youkaisfeasts",
+  "discover": true,
+  "crops": [
+    {
+      "id": "soybean",
+      "seed": "youkaisfeasts:soybean",
+      "plant": "youkaisfeasts:soybean"
+    },
+    {
+      "id": "cucumber",
+      "seed": "youkaisfeasts:cucumber_seeds",
+      "plant": "youkaisfeasts:cucumber"
+    },
+    {
+      "id": "udumbara",
+      "seed": "youkaisfeasts:udumbara_leaves",
+      "plant": "youkaisfeasts:udumbara"
+    }
+  ]
+}

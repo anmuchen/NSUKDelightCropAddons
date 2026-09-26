@@ -1,0 +1,33 @@
+{
+  "mod": "culturaldelights",
+  "prefix": "cld",
+  "label": "source.nsukdelightcropaddons.culturaldelights",
+  "discover": true,
+  "crops": [
+    {
+      "id": "cucumber",
+      "seed": "culturaldelights:cucumber_seeds",
+      "plant": "culturaldelights:cucumbers"
+    },
+    {
+      "id": "eggplant",
+      "seed": "culturaldelights:eggplant_seeds",
+      "plant": "culturaldelights:eggplants"
+    },
+    {
+      "id": "white_eggplant",
+      "seed": "culturaldelights:white_eggplant_seeds",
+      "plant": "culturaldelights:white_eggplants"
+    },
+    {
+      "id": "corn",
+      "seed": "culturaldelights:corn_kernels",
+      "plant": "culturaldelights:corn",
+      "harvest_blocks": [
+        "culturaldelights:corn_upper"
+      ],
+      "harvest_height": 2,
+      "allow_non_crop_block": true
+    }
+  ]
+}

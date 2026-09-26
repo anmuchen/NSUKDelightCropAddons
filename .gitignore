@@ -1,0 +1,21 @@
+# Gradle
+.gradle/
+build/
+repo/
+
+# ModDevGradle
+run/
+run-data/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# OS
+.DS_Store
+Thumbs.db

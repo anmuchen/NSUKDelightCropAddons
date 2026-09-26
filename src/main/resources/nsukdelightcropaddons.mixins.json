@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.xiaolianganmuchen.nsukdelightcropaddons.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "FarmCropMixin",
+    "FarmlandBoxDataMixin",
+    "FarmlandBoxServiceMixin",
+    "FarmlandFarmingServiceMixin",
+    "FarmlandHarvestServiceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixinextras": {
+    "minVersion": "0.4.0"
+  }
+}

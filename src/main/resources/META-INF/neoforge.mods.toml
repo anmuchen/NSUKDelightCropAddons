@@ -1,0 +1,145 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="GPL 3.0"
+
+[[mods]]
+modId="nsukdelightcropaddons"
+version="1.0.19"
+displayName="NSUK：乐事作物附属"
+authors="XiaoLiang小亮 & 安沐尘"
+logoFile="logo.png"
+description='''
+NSUK：乐事作物附属。让雇佣农民通过农田盒种植乐事系列能种在耕地上的作物。
+
+支持农夫乐事、饺子乐事、凤梨乐事、香芋乐事、蔬菜乐事、玉米乐事、扩充乐事、多元乐事、作物盛景、赣味乐事、樱途旅事、千古乐事、幻想乡乐事、乡村乐事。
+只要种子能种在原版耕地上，农民就会像原版小麦一样翻地、播种、骨粉、收割并补种。
+不收录水稻（水田）、会结出独立瓜块的藤蔓，以及树木/仙人掌等不适配耕地的植物。
+
+新增其它乐事模组时，在 data/nsukdelightcropaddons/nsuk_crops/ 放一份 JSON 即可。
+'''
+
+[[mixins]]
+config="nsukdelightcropaddons.mixins.json"
+
+[[mixins]]
+config="nsukdelightcropaddons.client.mixins.json"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.228,21.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21,1.22)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="simukraft"
+    type="required"
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+    reason="Hooks the NSUK farmland box crop list and farmer work cycle."
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="farmersdelight"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="dumplings_delight"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="pineapple_delight"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="ubesdelight"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="veggiesdelight"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="corn_delight"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="expandeddelight"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="culturaldelights"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="croptopia"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="gan_delight_reborn"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="trailandtales_delight"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="immortalers_delight"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="youkaisfeasts"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.nsukdelightcropaddons]]
+    modId="rusticdelight"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"

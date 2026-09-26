@@ -1,0 +1,28 @@
+{
+  "mod": "expandeddelight",
+  "prefix": "xd",
+  "label": "source.nsukdelightcropaddons.expandeddelight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "asparagus",
+      "seed": "expandeddelight:asparagus_seeds",
+      "plant": "expandeddelight:asparagus_crop"
+    },
+    {
+      "id": "sweet_potato",
+      "seed": "expandeddelight:sweet_potato",
+      "plant": "expandeddelight:sweet_potato_crop"
+    },
+    {
+      "id": "chili_pepper",
+      "seed": "expandeddelight:chili_pepper_seeds",
+      "plant": "expandeddelight:chili_pepper_crop"
+    },
+    {
+      "id": "peanut",
+      "seed": "expandeddelight:peanut",
+      "plant": "expandeddelight:peanut_crop"
+    }
+  ]
+}

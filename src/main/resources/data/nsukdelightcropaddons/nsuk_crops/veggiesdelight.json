@@ -1,0 +1,43 @@
+{
+  "mod": "veggiesdelight",
+  "prefix": "vd",
+  "label": "source.nsukdelightcropaddons.veggiesdelight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "bellpepper",
+      "seed": "veggiesdelight:bellpepper_seeds",
+      "plant": "veggiesdelight:bellpepper_crop"
+    },
+    {
+      "id": "broccoli",
+      "seed": "veggiesdelight:broccoli_seeds",
+      "plant": "veggiesdelight:broccoli_crop"
+    },
+    {
+      "id": "cauliflower",
+      "seed": "veggiesdelight:cauliflower_seeds",
+      "plant": "veggiesdelight:cauliflower_crop"
+    },
+    {
+      "id": "garlic",
+      "seed": "veggiesdelight:garlic_clove",
+      "plant": "veggiesdelight:garlic_crop"
+    },
+    {
+      "id": "sweet_potato",
+      "seed": "veggiesdelight:sweet_potato",
+      "plant": "veggiesdelight:sweet_potato_crop"
+    },
+    {
+      "id": "turnip",
+      "seed": "veggiesdelight:turnip_seeds",
+      "plant": "veggiesdelight:turnip_crop"
+    },
+    {
+      "id": "zucchini",
+      "seed": "veggiesdelight:zucchini_seeds",
+      "plant": "veggiesdelight:zucchini_crop"
+    }
+  ]
+}

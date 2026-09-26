@@ -1,0 +1,38 @@
+{
+  "mod": "dumplings_delight",
+  "prefix": "dd",
+  "label": "source.nsukdelightcropaddons.dumplings_delight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "chinese_cabbage",
+      "seed": "dumplings_delight:chinese_cabbage_seeds",
+      "plant": "dumplings_delight:chinese_cabbages"
+    },
+    {
+      "id": "garlic",
+      "seed": "dumplings_delight:garlic",
+      "plant": "dumplings_delight:garlics"
+    },
+    {
+      "id": "greenonion",
+      "seed": "dumplings_delight:greenonion",
+      "plant": "dumplings_delight:greenonions"
+    },
+    {
+      "id": "green_onion",
+      "seed": "dumplings_delight:green_onion",
+      "plant": "dumplings_delight:green_onions"
+    },
+    {
+      "id": "fennel",
+      "seed": "dumplings_delight:fennel_seeds",
+      "plant": "dumplings_delight:fennels"
+    },
+    {
+      "id": "celery",
+      "seed": "dumplings_delight:celery_seeds",
+      "plant": "dumplings_delight:celeries"
+    }
+  ]
+}

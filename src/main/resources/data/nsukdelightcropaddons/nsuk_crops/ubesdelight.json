@@ -1,0 +1,32 @@
+{
+  "mod": "ubesdelight",
+  "prefix": "ud",
+  "label": "source.nsukdelightcropaddons.ubesdelight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "ube",
+      "seed": "ubesdelight:ube",
+      "plant": "ubesdelight:ube_crop"
+    },
+    {
+      "id": "garlic",
+      "seed": "ubesdelight:garlic",
+      "plant": "ubesdelight:garlic_crop"
+    },
+    {
+      "id": "ginger",
+      "seed": "ubesdelight:ginger",
+      "plant": "ubesdelight:ginger_crop"
+    },
+    {
+      "id": "lemongrass",
+      "seed": "ubesdelight:lemongrass_seeds",
+      "plant": "ubesdelight:lemongrass_stalk_crop",
+      "harvest_blocks": [
+        "ubesdelight:lemongrass_leaf_crop",
+        "ubesdelight:lemongrass_crop"
+      ]
+    }
+  ]
+}
