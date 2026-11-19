@@ -1,0 +1,88 @@
+{
+  "mod": "northeast_china_delight",
+  "prefix": "ncd",
+  "label": "source.nsukdelightcropaddons.northeast_china_delight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "corn",
+      "seed": "northeast_china_delight:corn_seeds",
+      "plant": "northeast_china_delight:corn_crop",
+      "harvest_blocks": [
+        "northeast_china_delight:corn_stalk"
+      ],
+      "harvest_height": 2
+    },
+    {
+      "id": "cucumber",
+      "seed": "northeast_china_delight:cucumber_seeds",
+      "plant": "northeast_china_delight:cucumber_crop"
+    },
+    {
+      "id": "eggplant",
+      "seed": "northeast_china_delight:eggplant_seeds",
+      "plant": "northeast_china_delight:eggplant_crop"
+    },
+    {
+      "id": "green_beans",
+      "seed": "northeast_china_delight:green_beans_seeds",
+      "plant": "northeast_china_delight:green_beans_crop"
+    },
+    {
+      "id": "green_onion",
+      "seed": "northeast_china_delight:green_onion_seeds",
+      "plant": "northeast_china_delight:green_onion_crop",
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "green_pepper",
+      "seed": "northeast_china_delight:green_pepper_seeds",
+      "plant": "northeast_china_delight:green_pepper_crop"
+    },
+    {
+      "id": "green_radish",
+      "seed": "northeast_china_delight:green_radish_seeds",
+      "plant": "northeast_china_delight:green_radish_crop"
+    },
+    {
+      "id": "napa_cabbage",
+      "seed": "northeast_china_delight:napa_cabbage_seeds",
+      "plant": "northeast_china_delight:napa_cabbage_crop"
+    },
+    {
+      "id": "red_chili",
+      "seed": "northeast_china_delight:red_chili_seeds",
+      "plant": "northeast_china_delight:red_chili_crop"
+    },
+    {
+      "id": "buckwheat",
+      "seed": "northeast_china_delight:buckwheat",
+      "plant": "northeast_china_delight:buckwheat_crop",
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "peanut",
+      "seed": "northeast_china_delight:peanut",
+      "plant": "northeast_china_delight:peanut_crop",
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "red_bean",
+      "seed": "northeast_china_delight:red_bean",
+      "plant": "northeast_china_delight:red_bean_crop",
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "soybean",
+      "seed": "northeast_china_delight:soybean",
+      "plant": "northeast_china_delight:soybean_crop",
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "sweet_potato",
+      "seed": "northeast_china_delight:sweet_potato",
+      "plant": "northeast_china_delight:sweet_potato_crop",
+      "allow_non_crop_block": true
+    }
+  ]
+}

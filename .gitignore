@@ -1,13 +1,9 @@
-# Gradle
+# gradle
 .gradle/
 build/
-repo/
+out/
 
-# ModDevGradle
-run/
-run-data/
-
-# IDE
+# ide
 .idea/
 *.iml
 .vscode/
@@ -15,7 +11,18 @@ run-data/
 .classpath
 .project
 bin/
+*.launch
 
-# OS
-.DS_Store
+# eclipse / other
+run/
+runs/
+run-data/
+src/generated/
+
+# logs
+*.log
+logs/
+
+# os
 Thumbs.db
+.DS_Store

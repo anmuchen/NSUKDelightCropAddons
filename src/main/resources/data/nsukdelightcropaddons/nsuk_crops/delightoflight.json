@@ -1,0 +1,13 @@
+{
+  "mod": "delighto_flight",
+  "prefix": "dof",
+  "label": "source.nsukdelightcropaddons.delighto_flight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "thunder_fruit",
+      "seed": "delighto_flight:thunder_fruit_seeds",
+      "plant": "delighto_flight:thunder_vine"
+    }
+  ]
+}

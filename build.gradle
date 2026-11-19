@@ -68,28 +68,32 @@ configurations {
 }
 
 dependencies {
-    // ------------------------------------------------------------------
-    // 宿主模组：New Sim U Kraft（simukraft）
-    // 提供农田盒 / 雇佣农民工作循环，是本模组 mixin 注入的目标。
-    // 未发布到任何公共 Maven，故以本地 jar 形式引入。
-    // ------------------------------------------------------------------
-    compileOnly files('libs/New-Sim-U-Kraft-2.2.0-neoforge-1.21.1.jar')
-    localRuntime files('libs/New-Sim-U-Kraft-2.2.0-neoforge-1.21.1.jar')
-
-    // ------------------------------------------------------------------
-    // LDLib2：农田盒 GUI 所使用的界面工具库（随宿主模组分发）。
-    // ------------------------------------------------------------------
-    compileOnly files('libs/ldlib2-neoforge-1.21.1-2.2.40-all.jar')
-
-    // LDLib2 内部 JarJar 嵌套库：Taffy（布局引擎）与 Yoga（样式模型），
-    // 编译 GUI 屏幕类时需要它们的类型。
-    compileOnly files('libs/taffy-1.1.4.jar')
-    compileOnly files('libs/yoga-1.0.0.jar')
-
-    // MixinExtras（@WrapMethod / Operation）由 NeoForge 21.1.x 隐式提供，
-    // 无需显式声明；如需独立版本可在此追加：
-    // compileOnly "io.github.llamalad7:mixinextras-neoforge:0.5.3"
+    // NSUK crop API：作物注册表 + 五阶段作业接管 + 统一选择界面
+    compileOnly files('libs/nsukcropapi-1.0.0.jar')
 }
+
+var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
+    var replaceProperties = [
+            minecraft_version      : minecraft_version,
+            minecraft_version_range: minecraft_version_range,
+            neo_version            : neo_version,
+            neo_version_range      : neo_version_range,
+            loader_version_range   : loader_version_range,
+            mod_id                 : mod_id,
+            mod_name               : mod_name,
+            mod_license            : mod_license,
+            mod_version            : mod_version,
+            mod_authors            : mod_authors,
+            mod_description        : mod_description
+    ]
+    inputs.properties replaceProperties
+    expand replaceProperties
+    filteringCharset = 'UTF-8'
+    from "src/main/templates"
+    into "build/generated/sources/modMetadata"
+}
+sourceSets.main.resources.srcDir generateModMetadata
+neoForge.ideSyncTask generateModMetadata
 
 publishing {
     publications {

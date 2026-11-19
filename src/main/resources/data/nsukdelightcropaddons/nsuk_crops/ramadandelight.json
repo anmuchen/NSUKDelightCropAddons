@@ -1,0 +1,18 @@
+{
+  "mod": "ramadandelight",
+  "prefix": "rd",
+  "label": "source.nsukdelightcropaddons.ramadandelight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "parsley",
+      "seed": "ramadandelight:parsley_seeds",
+      "plant": "ramadandelight:parsley_crop"
+    },
+    {
+      "id": "chickpea",
+      "seed": "ramadandelight:chickpea",
+      "plant": "ramadandelight:chickpea_crop"
+    }
+  ]
+}

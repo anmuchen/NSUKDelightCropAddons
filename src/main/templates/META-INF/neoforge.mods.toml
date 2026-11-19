@@ -1,0 +1,81 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="GPL 3.0"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="乐事系列：作物附属"
+authors="XiaoLiang小亮 & 安沐尘"
+logoFile="logo.png"
+description='''
+乐事系列（Farmer's Delight 及其附属）：作物附属。
+把各类乐事附属的作物接入农田盒，由雇佣农民统一种植、收割与补种。
+
+已覆盖 29 个来源、175 种作物：
+· 作物盛景 57 种，赣味乐事 19 种，东北乐事 14 种，采集者的收获 8 种
+· 蔬菜乐事 7 种，饺子乐事 6 种
+· 千古乐事 / 秘鲁乐事 / 乡村乐事 / 妖怪乡 各 5 种
+· 多元乐事 / 扩充乐事 / 香芋乐事 / 无尽乐事 各 4 种
+· 感恩节乐事 / 农夫乐事 / 果园乐事 / 幻想乡乐事 / 岩城乐事 各 3 种
+· 额外乐事 / 暖灶丰年 / 斋月乐事 各 2 种
+· 玉米乐事 / 魔法食事 / 凤梨乐事 / 樱途旅事 / 云端之乐 / 神秘佳肴 / 纯素乐事 各 1 种
+
+未安装的源模组会自动跳过，不影响启动。
+
+农民会自己铺土壤、播种、施骨粉、收割并补种。
+箱子里备好对应种子即可；紫水晶甜菜根需要方解石或紫水晶块，菠萝需要菠萝生长方块。
+
+新增其它乐事附属时，在 data/nsukdelightcropaddons/nsuk_crops/ 放一份 JSON 即可。
+'''
+
+[[dependencies.${mod_id}]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.1.228,21.2)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21,1.22)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="nsukcropapi"
+    type="required"
+    versionRange="[1.0.0,)"
+    ordering="AFTER"
+    side="BOTH"
+    reason="农田盒作物注册表与五阶段作业接管由 NSUK 作物 API 提供"
+
+[[dependencies.${mod_id}]]
+    modId="simukraft"
+    type="required"
+    versionRange="[1.0,)"
+    ordering="AFTER"
+    side="BOTH"
+    reason="Hooks the NSUK farmland box crop list and farmer work cycle."
+
+[[dependencies.${mod_id}]]
+    modId="farm_and_charm"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="brewery"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.${mod_id}]]
+    modId="vinery"
+    type="optional"
+    versionRange="[0,)"
+    ordering="AFTER"
+    side="BOTH"

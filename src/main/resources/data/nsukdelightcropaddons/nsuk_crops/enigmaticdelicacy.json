@@ -1,0 +1,13 @@
+{
+  "mod": "enigmaticdelicacy",
+  "prefix": "ed",
+  "label": "source.nsukdelightcropaddons.enigmaticdelicacy",
+  "discover": true,
+  "crops": [
+    {
+      "id": "enigmatic_bush",
+      "seed": "enigmaticdelicacy:enigmatic_seed",
+      "plant": "enigmaticdelicacy:enigmatic_bush"
+    }
+  ]
+}

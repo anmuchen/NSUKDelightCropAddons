@@ -1,0 +1,52 @@
+{
+  "mod": "youkaishomecoming",
+  "prefix": "yk",
+  "label": "source.nsukdelightcropaddons.youkaishomecoming",
+  "discover": true,
+  "crops": [
+    {
+      "id": "cucumber",
+      "seed": "youkaishomecoming:cucumber_seeds",
+      "plant": "youkaishomecoming:cucumber",
+      "harvest": "pick"
+    },
+    {
+      "id": "tea",
+      "seed": "youkaishomecoming:tea_seeds",
+      "plant": "youkaishomecoming:tea",
+      "harvest": "break",
+      "skip_trough": true,
+      "noSoil": true
+    },
+    {
+      "id": "udumbara",
+      "seed": "youkaishomecoming:udumbara_seeds",
+      "plant": "youkaishomecoming:udumbara"
+    },
+    {
+      "id": "redbean",
+      "seed": "youkaishomecoming:redbean",
+      "plant": "youkaishomecoming:redbean",
+      "harvest": "break",
+      "skip_trough": true,
+      "soil_blocks": [
+        "minecraft:coarse_dirt",
+        "minecraft:mud",
+        "minecraft:clay"
+      ],
+      "noSoil": true
+    },
+    {
+      "id": "coffea",
+      "seed": "youkaishomecoming:green_coffee_bean",
+      "plant": "youkaishomecoming:coffea",
+      "skip_trough": true,
+      "soil_blocks": [
+        "minecraft:podzol",
+        "minecraft:mud",
+        "minecraft:soul_soil"
+      ],
+      "noSoil": true
+    }
+  ]
+}

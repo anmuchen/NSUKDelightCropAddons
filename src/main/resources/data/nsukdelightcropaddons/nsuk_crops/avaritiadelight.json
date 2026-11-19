@@ -1,0 +1,34 @@
+{
+  "mod": "avaritia_delight",
+  "prefix": "ad",
+  "label": "source.nsukdelightcropaddons.avaritia_delight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "blaze_tomato",
+      "seed": "avaritia_delight:blaze_tomato_seeds",
+      "plant": "avaritia_delight:budding_blaze_tomatoes",
+      "harvest_blocks": [
+        "avaritia_delight:blaze_tomatoes"
+      ],
+      "harvest_height": 1,
+      "harvest_max_age": false,
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "neutron_wheat",
+      "seed": "avaritia_delight:neutronium_wheat_seeds",
+      "plant": "avaritia_delight:neutronium_wheats"
+    },
+    {
+      "id": "matrix_cabbage",
+      "seed": "avaritia_delight:crystal_cabbage_seeds",
+      "plant": "avaritia_delight:crystal_cabbages"
+    },
+    {
+      "id": "lattice_potato",
+      "seed": "avaritia_delight:diamond_lattice_potato",
+      "plant": "avaritia_delight:diamond_lattice_potatoes"
+    }
+  ]
+}

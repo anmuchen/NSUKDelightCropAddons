@@ -1,0 +1,23 @@
+{
+  "mod": "farmers_spell",
+  "prefix": "fss",
+  "label": "source.nsukdelightcropaddons.farmers_spell",
+  "discover": false,
+  "crops": [
+    {
+      "id": "amethyst_beetroot",
+      "seed": "farmers_spell:amethyst_beetroot_seeds",
+      "plant": "farmers_spell:amethyst_beetroot",
+      "soil_blocks": [
+        "minecraft:calcite",
+        "minecraft:amethyst_block",
+        "minecraft:budding_amethyst"
+      ],
+      "soil_item": "minecraft:calcite",
+      "allow_non_crop_block": true,
+      "plant_properties": {
+        "facing": "up"
+      }
+    }
+  ]
+}

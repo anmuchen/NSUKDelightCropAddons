@@ -1,0 +1,22 @@
+{
+  "mod": "extradelight",
+  "prefix": "edl",
+  "label": "source.nsukdelightcropaddons.extradelight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "soybeans",
+      "seed": "extradelight:soybeans",
+      "plant": "extradelight:soybean_crop"
+    },
+    {
+      "id": "corn",
+      "seed": "extradelight:corn_seeds",
+      "plant": "extradelight:corn_bottom",
+      "harvest_blocks": [
+        "extradelight:corn_top"
+      ],
+      "harvest_height": 2
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "mod": "duacan_delight",
+  "prefix": "dd",
+  "label": "source.nsukdelightcropaddons.duacan_delight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "gaicai",
+      "seed": "duacan_delight:gaicai_seeds",
+      "plant": "duacan_delight:gaicai_crop"
+    },
+    {
+      "id": "kucai",
+      "seed": "duacan_delight:kucai_seeds",
+      "plant": "duacan_delight:kucai_crop",
+      "noSoil": true
+    },
+    {
+      "id": "xiancao",
+      "seed": "duacan_delight:xiancao_stem",
+      "plant": "duacan_delight:xiancao_crop",
+      "noSoil": true
+    }
+  ]
+}

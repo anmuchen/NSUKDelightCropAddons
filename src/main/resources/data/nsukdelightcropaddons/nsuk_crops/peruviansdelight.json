@@ -1,0 +1,34 @@
+{
+  "mod": "peruviansdelight",
+  "prefix": "pd",
+  "label": "source.nsukdelightcropaddons.peruviansdelight",
+  "discover": false,
+  "crops": [
+    {
+      "id": "aji_amarillo",
+      "seed": "peruviansdelight:semillas_aji_amarillo",
+      "plant": "peruviansdelight:ajies_amarillos",
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "kion",
+      "seed": "peruviansdelight:kion",
+      "plant": "peruviansdelight:kiones"
+    },
+    {
+      "id": "soya",
+      "seed": "peruviansdelight:granos_soya",
+      "plant": "peruviansdelight:soyas"
+    },
+    {
+      "id": "camote",
+      "seed": "peruviansdelight:camote",
+      "plant": "peruviansdelight:camotes"
+    },
+    {
+      "id": "yuca",
+      "seed": "peruviansdelight:yuca",
+      "plant": "peruviansdelight:yucas"
+    }
+  ]
+}

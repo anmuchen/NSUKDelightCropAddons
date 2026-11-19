@@ -1,0 +1,68 @@
+{
+  "mod": "collectorsreap",
+  "prefix": "cr",
+  "label": "source.nsukdelightcropaddons.collectorsreap",
+  "discover": true,
+  "crops": [
+    {
+      "id": "damselflower",
+      "seed": "collectorsreap:damselflower_seeds",
+      "plant": "collectorsreap:damselflower_crop",
+      "harvest_blocks": [
+        "collectorsreap:damselflower"
+      ]
+    },
+    {
+      "id": "moontear",
+      "seed": "collectorsreap:moontear_seeds",
+      "plant": "collectorsreap:moontear_crop",
+      "harvest_blocks": [
+        "collectorsreap:moontear"
+      ]
+    },
+    {
+      "id": "skull_lily",
+      "seed": "collectorsreap:skull_lily_seeds",
+      "plant": "collectorsreap:skull_lily_crop",
+      "harvest_blocks": [
+        "collectorsreap:skull_lily"
+      ]
+    },
+    {
+      "id": "dragon_fruit",
+      "seed": "collectorsreap:dragon_fruit_seeds",
+      "plant": "collectorsreap:pink_dragon_fruits"
+    },
+    {
+      "id": "lime",
+      "seed": "collectorsreap:lime_seeds",
+      "plant": "collectorsreap:lime_bush",
+      "allow_non_crop_block": true,
+      "harvest_height": 2,
+      "skip_trough": true,
+      "noSoil": true
+    },
+    {
+      "id": "pomegranate",
+      "seed": "collectorsreap:pomegranate_seeds",
+      "plant": "collectorsreap:pomegranate_bush",
+      "allow_non_crop_block": true,
+      "harvest_height": 2,
+      "skip_trough": true
+    },
+    {
+      "id": "bulbous_rose",
+      "seed": "collectorsreap:bulbous_rose_seeds",
+      "plant": "collectorsreap:bulbous_rose_crop",
+      "allow_non_crop_block": true,
+      "harvest_height": 2
+    },
+    {
+      "id": "heartpetals",
+      "seed": "collectorsreap:heartpetals_seeds",
+      "plant": "collectorsreap:heartpetals_crop",
+      "allow_non_crop_block": true,
+      "harvest_height": 2
+    }
+  ]
+}

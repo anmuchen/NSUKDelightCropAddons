@@ -1,0 +1,31 @@
+{
+  "mod": "fruitsdelight",
+  "prefix": "fd",
+  "label": "source.nsukdelightcropaddons.fruits_delight",
+  "discover": false,
+  "crops": [
+    {
+      "id": "pineapple",
+      "seed": "fruitsdelight:pineapple_sapling",
+      "plant": "fruitsdelight:pineapple",
+      "soil_tag": "fruitsdelight:pineapple_grows_on",
+      "soil_item": "minecraft:sand",
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "blueberry_bush",
+      "seed": "fruitsdelight:blueberry",
+      "plant": "fruitsdelight:blueberry_bush",
+      "allow_non_crop_block": true
+    },
+    {
+      "id": "lemon_tree",
+      "seed": "fruitsdelight:lemon_seeds",
+      "plant": "fruitsdelight:lemon_tree",
+      "plant_properties": {
+        "half": "lower"
+      },
+      "allow_non_crop_block": true
+    }
+  ]
+}

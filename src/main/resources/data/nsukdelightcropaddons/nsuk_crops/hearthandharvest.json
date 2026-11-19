@@ -1,0 +1,20 @@
+{
+  "mod": "hearthandharvest",
+  "prefix": "hh",
+  "label": "source.nsukdelightcropaddons.hearthandharvest",
+  "discover": true,
+  "crops": [
+    {
+      "id": "cotton",
+      "seed": "hearthandharvest:cotton_seeds",
+      "plant": "hearthandharvest:cotton"
+    },
+    {
+      "id": "corn",
+      "seed": "hearthandharvest:corn_kernels",
+      "plant": "hearthandharvest:corn_stalk",
+      "harvest_height": 2,
+      "allow_non_crop_block": true
+    }
+  ]
+}

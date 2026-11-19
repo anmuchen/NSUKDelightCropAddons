@@ -1,0 +1,13 @@
+{
+  "mod": "vegandelight",
+  "prefix": "vdg",
+  "label": "source.nsukdelightcropaddons.vegandelight",
+  "discover": true,
+  "crops": [
+    {
+      "id": "soybean",
+      "seed": "vegandelight:soybean",
+      "plant": "vegandelight:soybean_crop"
+    }
+  ]
+}

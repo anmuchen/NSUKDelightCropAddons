@@ -1,0 +1,37 @@
+{
+  "mod": "bountifulharvest",
+  "prefix": "bh",
+  "label": "source.nsukdelightcropaddons.bountifulharvest",
+  "discover": false,
+  "crops": [
+    {
+      "id": "sweet_potato",
+      "seed": "bountifulharvest:sweet_potato",
+      "plant": "bountifulharvest:sweet_potatoes"
+    },
+    {
+      "id": "corn",
+      "seed": "bountifulharvest:corn_kernel",
+      "plant": "bountifulharvest:corn_stalk",
+      "harvest_blocks": [
+        "bountifulharvest:corn_top"
+      ],
+      "harvest_height": 2
+    },
+    {
+      "id": "pecan",
+      "seed": "bountifulharvest:pecan",
+      "plant": "bountifulharvest:pecan_tree",
+      "harvest_height": 2,
+      "allow_non_crop_block": true,
+      "soil_blocks": [
+        "minecraft:dirt",
+        "minecraft:grass_block",
+        "minecraft:coarse_dirt",
+        "minecraft:podzol",
+        "minecraft:rooted_dirt"
+      ],
+      "soil_item": "minecraft:dirt"
+    }
+  ]
+}
