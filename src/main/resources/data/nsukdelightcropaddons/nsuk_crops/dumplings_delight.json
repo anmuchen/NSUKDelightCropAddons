@@ -12,27 +12,27 @@
     {
       "id": "garlic",
       "seed": "dumplings_delight:garlic",
-      "plant": "dumplings_delight:garlics"
+      "plant": "dumplings_delight:garlic"
     },
     {
       "id": "greenonion",
       "seed": "dumplings_delight:greenonion",
-      "plant": "dumplings_delight:greenonions"
+      "plant": "dumplings_delight:greenonion"
     },
     {
       "id": "green_onion",
-      "seed": "dumplings_delight:green_onion",
-      "plant": "dumplings_delight:green_onions"
+      "seed": "dumplings_delight:greenonion",
+      "plant": "dumplings_delight:greenonion"
     },
     {
       "id": "fennel",
       "seed": "dumplings_delight:fennel_seeds",
-      "plant": "dumplings_delight:fennels"
+      "plant": "dumplings_delight:fennel"
     },
     {
       "id": "celery",
       "seed": "dumplings_delight:celery_seeds",
-      "plant": "dumplings_delight:celeries"
+      "plant": "dumplings_delight:celery"
     }
   ]
 }

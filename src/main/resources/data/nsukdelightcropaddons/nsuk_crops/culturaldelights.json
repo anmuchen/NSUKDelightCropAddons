@@ -16,16 +16,13 @@
     },
     {
       "id": "white_eggplant",
-      "seed": "culturaldelights:white_eggplant_seeds",
+      "seed": "culturaldelights:white_eggplant",
       "plant": "culturaldelights:white_eggplants"
     },
     {
       "id": "corn",
       "seed": "culturaldelights:corn_kernels",
       "plant": "culturaldelights:corn",
-      "harvest_blocks": [
-        "culturaldelights:corn_upper"
-      ],
       "harvest_height": 2,
       "allow_non_crop_block": true
     }
